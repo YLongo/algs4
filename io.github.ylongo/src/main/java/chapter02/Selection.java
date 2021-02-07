@@ -3,7 +3,7 @@ package main.java.chapter02;
 import main.java.Example;
 
 /**
- * @author yihailong
+ * @author YLongo
  * @since 2021-01-27 17:05
  */
 public class Selection {
@@ -29,11 +29,13 @@ public class Selection {
 
 			for (int j = i + 1; j < N; j++) {
 				if (Example.less(a[j], a[min])) {
-					min = j; // 
+					min = j; // 找到最小元素的索引
 				}
 			}
 			
-			Example.exch(a, i, min);
+			Example.exch(a, i, min); // 交换
 		}
 	}
+
+
 }

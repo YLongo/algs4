@@ -34,6 +34,14 @@ public class Example {
 		
 		StdOut.println();
 	}
+
+	public static void show(int[] a) {
+		for (int i = 0; i < a.length; i++) {
+			StdOut.print(a[i] + " ");
+		}
+
+		StdOut.println();
+	}
 	
 	public static boolean isSorted(Comparable[] a) {
 		for (int i = 1; i < a.length; i++) {
